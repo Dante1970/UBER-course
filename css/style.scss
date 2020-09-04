@@ -153,31 +153,28 @@
 }
 
 .advantages {
-    .advantages__items {
-        .advantages__item {
-            margin-top: 40px;
-            padding: 0px 0px 0px 175px;
-            position: relative;
-            min-height: 180px;
-            img {
-                position: absolute;
-                left: 35px;
-                top: 10px;
-                // top: 50%;
-                // transform: translateY(-50%);
-            }
-            .advantages__item-title {
-                color: #1eacc7;;
-                font-size: 17px;
-                font-weight: 400;
-            }
-            .advantages__item-text {
-                min-height: 109px;
-                color: #202020;
-                min-weight: 341px;
-                font-size: 15px;
-                font-weight: 300;
-            }
+    .advantages__item {
+        margin-top: 40px;
+        padding: 0px 0px 0px 175px;
+        position: relative;
+        img {
+            position: absolute;
+            left: 35px;
+            top: 10px;
+            // top: 50%;
+            // transform: translateY(-50%);
+        }
+        .advantages__item-title {
+            color: #1eacc7;;
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .advantages__item-text {
+            min-height: 109px;
+            color: #202020;
+            min-weight: 341px;
+            font-size: 15px;
+            font-weight: 300;
         }
     }
 }

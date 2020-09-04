@@ -151,23 +151,22 @@
   background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
 }
 
-.advantages .advantages__items .advantages__item {
+.advantages .advantages__item {
   margin-top: 40px;
   padding: 0px 0px 0px 175px;
   position: relative;
-  min-height: 180px;
 }
-.advantages .advantages__items .advantages__item img {
+.advantages .advantages__item img {
   position: absolute;
   left: 35px;
   top: 10px;
 }
-.advantages .advantages__items .advantages__item .advantages__item-title {
+.advantages .advantages__item .advantages__item-title {
   color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
-.advantages .advantages__items .advantages__item .advantages__item-text {
+.advantages .advantages__item .advantages__item-text {
   min-height: 109px;
   color: #202020;
   min-weight: 341px;
