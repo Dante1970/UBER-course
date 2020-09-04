@@ -30,6 +30,10 @@
 .nav {
   height: 50px;
   background: #212121;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .nav .menu {
   display: flex;
@@ -107,6 +111,7 @@
   min-height: 800px;
   background: url("../img/promo-bg.png") 50% 50%/cover no-repeat;
   padding: 150px 0px 135px 0px;
+  margin-top: 50px;
 }
 .promo .promo__header {
   color: #ffffff;
