@@ -8,7 +8,6 @@
 }
 
 .label {
-  margin: 0 auto;
   padding: 8px 11px;
   background-color: #000000;
   color: #ffffff;
@@ -322,8 +321,48 @@
   text-transform: uppercase;
 }
 
-.mobile__plus img {
+.mobile__plus {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #000;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.mobile__plus:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background: #1eacc7;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.mobile__plus:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 14px;
+  background: #1eacc7;
+  position: absolute;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.mobile__plus:hover:before, .mobile__plus:hover:after {
+  background: #ff5656;
 }
 
 .car {
@@ -353,4 +392,58 @@
   color: #222222;
   font-size: 17px;
   font-weight: 300;
+}
+
+.require {
+  text-align: center;
+  padding: 68px 0px 55px 0px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.require__item {
+  text-align: left;
+  margin: 33px 0px 29px 0px;
+}
+
+.require__title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.require__title_red {
+  color: #ff5656;
+}
+
+.require__list {
+  list-style-type: none;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.require__list li {
+  position: relative;
+  padding-left: 51px;
+  margin-top: 15px;
+}
+
+.require__list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 19px;
+  width: 21px;
+  height: 20px;
+  background: url("/img/icons/check_b.png");
+}
+
+.require__list_red li:before {
+  background: url("/img/icons/check_r.png");
+}
+
+.require__descr {
+  color: #1ca8c3;
 }
