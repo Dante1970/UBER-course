@@ -166,6 +166,11 @@
   background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
 }
 
+.subheader .subheader__btn:hover {
+  background-image: none;
+  background: #1eacc7;
+}
+
 .promo {
   min-height: 800px;
   background: url("../img/promo-bg.png") 50% 50%/cover no-repeat;
@@ -219,6 +224,11 @@
   border: none;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
   background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+}
+
+.promo .promo__btn:hover {
+  background-image: none;
+  background: #1eacc7;
 }
 
 .advantages {
@@ -314,4 +324,33 @@
 
 .mobile__plus img {
   cursor: pointer;
+}
+
+.car {
+  text-align: center;
+  padding: 57px 0px 138px 0px;
+  background: url("/img/car_bg.png") 50% 50%/cover no-repeat;
+}
+
+.car .label {
+  background: #fff;
+  color: #000;
+}
+
+.car .title {
+  color: #fff;
+}
+
+.car .subtitle {
+  color: #fff;
+}
+
+.car .car__img {
+  margin-top: 56px;
+}
+
+.car .discr {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
 }
