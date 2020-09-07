@@ -385,3 +385,31 @@
         color: #1ca8c3;
     }
 }
+
+.worldwide {
+    position: relative;
+    padding: 49px 0;
+    background: url("/img/worldwide_bg.png") 50% 50% / cover no-repeat;
+    text-align: center;
+    height: 100vh;
+    .label {
+        background: #fff;
+        color: #000;
+    }
+    .title {
+        color: #fff;
+    }
+    .subtitle {
+        color: #fff;
+    }
+    &__link {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom: 49px;
+        color: #1fbad6;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
