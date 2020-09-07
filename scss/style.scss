@@ -413,3 +413,106 @@
         text-transform: uppercase;
     }
 }
+
+.footer {
+    padding: 14px 23px 31px 14px;
+    position: relative;
+    &__line-top {
+        margin: 0 auto;
+        width: 299px;
+        height: 4px;
+        background-color: #1fbad6;
+    }
+    &__content {
+        margin-top: 34px;
+        position: relative;
+    }
+    &__main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__socials {
+        position: absolute;
+        left: 0px;
+    }
+
+    &__nav {
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        color: #070716;
+        font-size: 15px;
+        font-weight: 300;
+        text-transform: uppercase;
+        li {
+            margin-right: 46px;
+            a {
+                color: #070716;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__subnav {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: uppercase;
+        li {
+            margin-right: 21px;
+            a {
+                color: #999999;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__language {
+        color: #1fbad6;
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &__download {
+        display: flex;
+        justify-content: space-between;
+        width: 296px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &__app {
+        width: 94px;
+        height: 27px;
+        display: block;
+        background: black;
+        &-appStore {
+            background: url(/img/icons/download_app.png) no-repeat;
+        }
+        &-googlePlay {
+            background: url(/img/icons/download_app.png) -101px no-repeat;
+        }
+        &-windowsStore {
+            background: url(/img/icons/download_app.png) -201px no-repeat;
+        }
+    }
+
+    &__line-bottom {
+        display: block;
+        width: 100%;
+        height: 8px;
+        background-color: #070716;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
