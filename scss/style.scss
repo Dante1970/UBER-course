@@ -1,5 +1,6 @@
 // font-family: 'Roboto', sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+@import "fonts.scss";
 
 @mixin btn__hover {
     &:hover {
@@ -438,6 +439,26 @@
     &__socials {
         position: absolute;
         left: 0px;
+        font-family: 'icomoon';
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 32px;
+        height: 32px;
+        background-color: #070716;
+        margin-right: 9px;
+        border-radius: 50%;
+        color: #fff;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
     }
 
     &__nav {
